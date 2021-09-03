@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Contact Form</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link href="/css/site.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container text-center">
+        <h1 class="mt-5 text-light">Contact Me </h1>
+    </div>
+    <!--Container for the full contact card-->
+    <div class="container bg-white p-3">
+    <!--start of form-->
+    <form>
+        <!--start of the single column container -->
+        <div class="row">
+            <!--First name-->
+            <div class="col-6">
+                <label for="firstName" class="form-label fw-bold">First Name</label> <br>
+                <input name="firstName" type="text" class="form-control" placeholder="First Name" id="firstName">
+            </div>
+            <!--Last Name-->
+            <div class="col-6">
+                <label for="lastName" class="form-label fw-bold">Last Name</label> <br>
+                <input name="lastName" type="text" class="form-control" placeholder="Last Name" id="lastName">
+            </div>
+            <!--Email-->
+            <div class="col-6 mt-2">
+                <label for="email" class="form-label fw-bold">Email</label> <br>
+                <input name="email" type="email" class="form-control" placeholder="Email" id="email">
+            </div>
+            <!--Phone-->
+            <div class="col-6 mt-2">
+                <label for="phone" class="form-label fw-bold">Phone</label> <br>
+                <input name="telephone" type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" class="form-control" placeholder="Phone" id="phone">
+            </div>
+            <!--Subject-->
+            <div class="col-12 mt-2">
+                <label for="subject" class="form-label fw-bold">Subject</label> <br>
+                <input name="subject" type="text" class="form-control" placeholder="Subject" id="subject">
+            </div>
+            <!--Message-->
+            <div class="col-12 mt-2">
+                <label for="message" class="form-label fw-bold">Message</label> <br>
+                <textarea name="message" type="text-area" class="form-control" placeholder="Message" id="message"></textarea>
+
+            </div>
+            <!--Button-->
+            <div class="col mt-3">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </div>
+    </form>
+    </div>
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
