@@ -18,39 +18,39 @@
         <h1 class="mt-5 text-light">Contact Me </h1>
     </div>
     <!--Container for the full contact card-->
-    <div class="container bg-white p-3">
+    <div class="container border border-2 border-info shadow-lg bg-light p-3">
     <!--start of form-->
     <form>
         <!--start of the single column container -->
         <div class="row">
             <!--First name-->
             <div class="col-6">
-                <label for="firstName" class="form-label fw-bold">First Name</label> <br>
+                <label for="firstName" class="form-label fw-bold" aria-label="First Name" required>First Name</label> <br>
                 <input name="firstName" type="text" class="form-control" placeholder="First Name" id="firstName">
             </div>
             <!--Last Name-->
             <div class="col-6">
-                <label for="lastName" class="form-label fw-bold">Last Name</label> <br>
+                <label for="lastName" class="form-label fw-bold" aria-label="Last Name" required>Last Name</label> <br>
                 <input name="lastName" type="text" class="form-control" placeholder="Last Name" id="lastName">
             </div>
             <!--Email-->
             <div class="col-6 mt-2">
-                <label for="email" class="form-label fw-bold">Email</label> <br>
+                <label for="email" class="form-label fw-bold" aria-label="Email" required>Email</label> <br>
                 <input name="email" type="email" class="form-control" placeholder="Email" id="email">
             </div>
             <!--Phone-->
             <div class="col-6 mt-2">
-                <label for="phone" class="form-label fw-bold">Phone</label> <br>
+                <label for="phone" class="form-label fw-bold" aria-label="Phone Number">Phone</label> <br>
                 <input name="telephone" type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" class="form-control" placeholder="Phone" id="phone">
             </div>
             <!--Subject-->
             <div class="col-12 mt-2">
-                <label for="subject" class="form-label fw-bold">Subject</label> <br>
+                <label for="subject" class="form-label fw-bold" aria-label="Subject" required>Subject</label> <br>
                 <input name="subject" type="text" class="form-control" placeholder="Subject" id="subject">
             </div>
             <!--Message-->
             <div class="col-12 mt-2">
-                <label for="message" class="form-label fw-bold">Message</label> <br>
+                <label for="message" class="form-label fw-bold" aria-label="Message" required>Message</label> <br>
                 <textarea name="message" type="text-area" class="form-control" placeholder="Message" id="message"></textarea>
 
             </div>
